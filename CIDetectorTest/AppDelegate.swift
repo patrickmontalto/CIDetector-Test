@@ -3,7 +3,7 @@
 //  CIDetectorTest
 //
 //  Created by Patrick on 5/4/16.
-//  Copyright © 2016 ADNAS. All rights reserved.
+//  Copyright © 2016. All rights reserved.
 //
 
 import Cocoa

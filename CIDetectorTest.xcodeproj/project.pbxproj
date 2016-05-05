@@ -13,6 +13,7 @@
 		D2BE3F931CDA7F28001FCF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BE3F911CDA7F28001FCF5A /* Main.storyboard */; };
 		D2BE3F9E1CDA7F28001FCF5A /* CIDetectorTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE3F9D1CDA7F28001FCF5A /* CIDetectorTestTests.swift */; };
 		D2BE3FA91CDA7F28001FCF5A /* CIDetectorTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE3FA81CDA7F28001FCF5A /* CIDetectorTestUITests.swift */; };
+		D2FF30E71CDBDF230029606D /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF30E61CDBDF230029606D /* GCDBlackBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D2BE3FA41CDA7F28001FCF5A /* CIDetectorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDetectorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BE3FA81CDA7F28001FCF5A /* CIDetectorTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDetectorTestUITests.swift; sourceTree = "<group>"; };
 		D2BE3FAA1CDA7F28001FCF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FF30E61CDBDF230029606D /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D2BE3F8F1CDA7F28001FCF5A /* Assets.xcassets */,
 				D2BE3F911CDA7F28001FCF5A /* Main.storyboard */,
 				D2BE3F941CDA7F28001FCF5A /* Info.plist */,
+				D2FF30E61CDBDF230029606D /* GCDBlackBox.swift */,
 			);
 			path = CIDetectorTest;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BE3F8E1CDA7F28001FCF5A /* ViewController.swift in Sources */,
+				D2FF30E71CDBDF230029606D /* GCDBlackBox.swift in Sources */,
 				D2BE3F8C1CDA7F28001FCF5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +391,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CIDetectorTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adnas.CIDetectorTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmontalto.CIDetectorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -399,7 +403,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CIDetectorTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adnas.CIDetectorTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmontalto.CIDetectorTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -475,6 +479,7 @@
 				D2BE3FAF1CDA7F28001FCF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2BE3FB01CDA7F28001FCF5A /* Build configuration list for PBXNativeTarget "CIDetectorTestTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				D2BE3FB21CDA7F28001FCF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2BE3FB31CDA7F28001FCF5A /* Build configuration list for PBXNativeTarget "CIDetectorTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +497,7 @@
 				D2BE3FB51CDA7F28001FCF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
